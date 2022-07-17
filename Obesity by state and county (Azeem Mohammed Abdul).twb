@@ -1,0 +1,2813 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.21.1217.2252                               -->
+<workbook original-version='18.1' source-build='2021.4.2 (20214.21.1217.2252)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <CascadingFilters />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Connect to me (USDA_activity_dataset)' inline='true' name='federated.1q461cg1uebgwl12xxu6b12ticza' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='USDA_activity_dataset' name='excel-direct.1q57a940o8cfiz10gjv5x1ifkhgj'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/lenovo/Downloads/USDA_activity_dataset.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1q57a940o8cfiz10gjv5x1ifkhgj' name='Connect to me' table='[&apos;Connect to me$&apos;]' type='table'>
+          <columns gridOrigin='A1:CP3142:no:A1:CP3142:0' header='yes' outcome='2'>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='string' name='County' ordinal='1' />
+            <column datatype='string' name='Voting in 2008' ordinal='2' />
+            <column datatype='integer' name='# Households w/no car &amp; &gt;1 mile to store' ordinal='3' />
+            <column datatype='real' name='% Households no car &amp; &lt;1 mile to store' ordinal='4' />
+            <column datatype='integer' name='# low income &amp; &gt;1 mile to store' ordinal='5' />
+            <column datatype='real' name='% smokers' ordinal='6' />
+            <column datatype='integer' name='# Grocery stores' ordinal='7' />
+            <column datatype='real' name='Grocery stores/1000 pop' ordinal='8' />
+            <column datatype='integer' name='# Supercenters and club stores' ordinal='9' />
+            <column datatype='real' name='Supercenters and club stores/1000 pop' ordinal='10' />
+            <column datatype='integer' name='# Convenience stores no gas' ordinal='11' />
+            <column datatype='real' name='Convenience stores no gas/1,000 pop' ordinal='12' />
+            <column datatype='integer' name='# Convenience stores with gas' ordinal='13' />
+            <column datatype='real' name='Convenience stores with gas/1,000 pop' ordinal='14' />
+            <column datatype='integer' name='# SNAP-authorized stores' ordinal='15' />
+            <column datatype='real' name='SNAP-authorized stores/1,000 pop' ordinal='16' />
+            <column datatype='integer' name='SNAP redemption/SNAP-authorized stores' ordinal='17' />
+            <column datatype='integer' name='# WIC-authorized stores' ordinal='18' />
+            <column datatype='real' name='WIC-authorized stores/1,000 pop' ordinal='19' />
+            <column datatype='integer' name='WIC redemptions/WIC-authorized stores' ordinal='20' />
+            <column datatype='integer' name='# Fast-food restaurants' ordinal='21' />
+            <column datatype='real' name='Fast-food restaurants/1,000 pop' ordinal='22' />
+            <column datatype='integer' name='# Full-service restaurants' ordinal='23' />
+            <column datatype='real' name='Full-service restaurant/1,000 pop' ordinal='24' />
+            <column datatype='integer' name='Fast-food expenditures per capita' ordinal='25' />
+            <column datatype='integer' name='Restaurant expenditures per capita' ordinal='26' />
+            <column datatype='integer' name='Avg monthly # SNAP participants' ordinal='27' />
+            <column datatype='integer' name='Total SNAP benefits ($1,000)' ordinal='28' />
+            <column datatype='integer' name='Average monthly SNAP $ benefits' ordinal='29' />
+            <column datatype='integer' name='SNAP participation rate' ordinal='30' />
+            <column datatype='real' name='% Low-income receiving SNAP' ordinal='31' />
+            <column datatype='integer' name='Avg monthly # School-Lunch participants' ordinal='32' />
+            <column datatype='real' name='% eating few fruits and vegetables' ordinal='33' />
+            <column datatype='real' name='% Students reduce-price-lunch eligible' ordinal='34' />
+            <column datatype='integer' name='Avg monthly # Schl-Breakfast participants' ordinal='35' />
+            <column datatype='integer' name='Avg monthly # Summer-Food participants' ordinal='36' />
+            <column datatype='integer' name='# Summer-Food program sites' ordinal='37' />
+            <column datatype='integer' name='Average daily meals at Summer-Food sites' ordinal='38' />
+            <column datatype='integer' name='Avg monthly # WIC participants*' ordinal='39' />
+            <column datatype='integer' name='WIC $ redemptions' ordinal='40' />
+            <column datatype='real' name='Avg daily served Child-&amp;-Adult-Care' ordinal='41' />
+            <column datatype='integer' name='Lbs per capita fruit&amp;veg' ordinal='42' />
+            <column datatype='real' name='Ratio per capita fruit&amp;veg/prep food' ordinal='43' />
+            <column datatype='integer' name='Lbs per capita pkg sweetsnacks' ordinal='44' />
+            <column datatype='integer' name='Gals per capita soft drinks' ordinal='45' />
+            <column datatype='integer' name='Lbs per capita meat&amp;poultry' ordinal='46' />
+            <column datatype='integer' name='Lbs per capita solid fats' ordinal='47' />
+            <column datatype='integer' name='Lbs per capita prepared meals' ordinal='48' />
+            <column datatype='integer' name='Household food insecurity 2007' ordinal='49' />
+            <column datatype='integer' name='Household food insecurity 2008' ordinal='50' />
+            <column datatype='integer' name='Child food insecurity' ordinal='51' />
+            <column datatype='real' name='Relative price of low-fat milk' ordinal='52' />
+            <column datatype='real' name='Relative price of sweetened drinks' ordinal='53' />
+            <column datatype='real' name='Relative ratio lw-fat milk/swtnd drnk' ordinal='54' />
+            <column datatype='real' name='Price ratio green-leafy/starchy veg' ordinal='55' />
+            <column datatype='real' name='Price ratio fruit/pkg sweet snacks' ordinal='56' />
+            <column datatype='real' name='Price ratio fruit/pkg savory snacks' ordinal='57' />
+            <column datatype='real' name='Price ratio wholegrain/refinedgrain' ordinal='58' />
+            <column datatype='real' name='Soda sales tax, retail stores' ordinal='59' />
+            <column datatype='real' name='Soda sales tax, vending' ordinal='60' />
+            <column datatype='real' name='Chip &amp; pretzel sales tax, vending' ordinal='61' />
+            <column datatype='real' name='State food sales tax, general' ordinal='62' />
+            <column datatype='real' name='Adult diabetes rate' ordinal='63' />
+            <column datatype='real' name='Adult obesity rate' ordinal='64' />
+            <column datatype='real' name='% who do not exercise' ordinal='65' />
+            <column datatype='real' name='Low-income preschool obesity rate' ordinal='66' />
+            <column datatype='integer' name='# Farms with direct sales' ordinal='67' />
+            <column datatype='real' name='% Farms with direct sales' ordinal='68' />
+            <column datatype='real' name='% Farm sales $ direct to consumer' ordinal='69' />
+            <column datatype='integer' name='$ Direct farm sales' ordinal='70' />
+            <column datatype='real' name='$ Direct farm sales per capita' ordinal='71' />
+            <column datatype='integer' name='# Farmers’ markets' ordinal='72' />
+            <column datatype='real' name='Farmers’ markets/1,000 pop' ordinal='73' />
+            <column datatype='integer' name='# Vegetable acres harvested' ordinal='74' />
+            <column datatype='real' name='Vegetable acres harvested/1,000 pop' ordinal='75' />
+            <column datatype='integer' name='Farm to school program' ordinal='76' />
+            <column datatype='real' name='% Adults meeting activity guidelines' ordinal='77' />
+            <column datatype='real' name='% Highschoolers physically active' ordinal='78' />
+            <column datatype='real' name='Rec &amp; fitness facilities/1,000 pop' ordinal='79' />
+            <column datatype='integer' name='ERS natural amenity index' ordinal='80' />
+            <column datatype='real' name='% White' ordinal='81' />
+            <column datatype='real' name='% Black' ordinal='82' />
+            <column datatype='real' name='% Hispanic' ordinal='83' />
+            <column datatype='real' name='% Asian' ordinal='84' />
+            <column datatype='real' name='% Amer. Indian or Alaskan Native' ordinal='85' />
+            <column datatype='real' name='% Hawaiian or Pacific Islander' ordinal='86' />
+            <column datatype='integer' name='Median household income' ordinal='87' />
+            <column datatype='real' name='Poverty rate' ordinal='88' />
+            <column datatype='integer' name='Persistent poverty counties' ordinal='89' />
+            <column datatype='real' name='Child poverty rate' ordinal='90' />
+            <column datatype='integer' name='Persistent child poverty counties' ordinal='91' />
+            <column datatype='integer' name='Metro-nonmetro counties' ordinal='92' />
+            <column datatype='integer' name='Population loss counties' ordinal='93' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1q57a940o8cfiz10gjv5x1ifkhgj' name='Connect to me' table='[&apos;Connect to me$&apos;]' type='table'>
+          <columns gridOrigin='A1:CP3142:no:A1:CP3142:0' header='yes' outcome='2'>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='string' name='County' ordinal='1' />
+            <column datatype='string' name='Voting in 2008' ordinal='2' />
+            <column datatype='integer' name='# Households w/no car &amp; &gt;1 mile to store' ordinal='3' />
+            <column datatype='real' name='% Households no car &amp; &lt;1 mile to store' ordinal='4' />
+            <column datatype='integer' name='# low income &amp; &gt;1 mile to store' ordinal='5' />
+            <column datatype='real' name='% smokers' ordinal='6' />
+            <column datatype='integer' name='# Grocery stores' ordinal='7' />
+            <column datatype='real' name='Grocery stores/1000 pop' ordinal='8' />
+            <column datatype='integer' name='# Supercenters and club stores' ordinal='9' />
+            <column datatype='real' name='Supercenters and club stores/1000 pop' ordinal='10' />
+            <column datatype='integer' name='# Convenience stores no gas' ordinal='11' />
+            <column datatype='real' name='Convenience stores no gas/1,000 pop' ordinal='12' />
+            <column datatype='integer' name='# Convenience stores with gas' ordinal='13' />
+            <column datatype='real' name='Convenience stores with gas/1,000 pop' ordinal='14' />
+            <column datatype='integer' name='# SNAP-authorized stores' ordinal='15' />
+            <column datatype='real' name='SNAP-authorized stores/1,000 pop' ordinal='16' />
+            <column datatype='integer' name='SNAP redemption/SNAP-authorized stores' ordinal='17' />
+            <column datatype='integer' name='# WIC-authorized stores' ordinal='18' />
+            <column datatype='real' name='WIC-authorized stores/1,000 pop' ordinal='19' />
+            <column datatype='integer' name='WIC redemptions/WIC-authorized stores' ordinal='20' />
+            <column datatype='integer' name='# Fast-food restaurants' ordinal='21' />
+            <column datatype='real' name='Fast-food restaurants/1,000 pop' ordinal='22' />
+            <column datatype='integer' name='# Full-service restaurants' ordinal='23' />
+            <column datatype='real' name='Full-service restaurant/1,000 pop' ordinal='24' />
+            <column datatype='integer' name='Fast-food expenditures per capita' ordinal='25' />
+            <column datatype='integer' name='Restaurant expenditures per capita' ordinal='26' />
+            <column datatype='integer' name='Avg monthly # SNAP participants' ordinal='27' />
+            <column datatype='integer' name='Total SNAP benefits ($1,000)' ordinal='28' />
+            <column datatype='integer' name='Average monthly SNAP $ benefits' ordinal='29' />
+            <column datatype='integer' name='SNAP participation rate' ordinal='30' />
+            <column datatype='real' name='% Low-income receiving SNAP' ordinal='31' />
+            <column datatype='integer' name='Avg monthly # School-Lunch participants' ordinal='32' />
+            <column datatype='real' name='% eating few fruits and vegetables' ordinal='33' />
+            <column datatype='real' name='% Students reduce-price-lunch eligible' ordinal='34' />
+            <column datatype='integer' name='Avg monthly # Schl-Breakfast participants' ordinal='35' />
+            <column datatype='integer' name='Avg monthly # Summer-Food participants' ordinal='36' />
+            <column datatype='integer' name='# Summer-Food program sites' ordinal='37' />
+            <column datatype='integer' name='Average daily meals at Summer-Food sites' ordinal='38' />
+            <column datatype='integer' name='Avg monthly # WIC participants*' ordinal='39' />
+            <column datatype='integer' name='WIC $ redemptions' ordinal='40' />
+            <column datatype='real' name='Avg daily served Child-&amp;-Adult-Care' ordinal='41' />
+            <column datatype='integer' name='Lbs per capita fruit&amp;veg' ordinal='42' />
+            <column datatype='real' name='Ratio per capita fruit&amp;veg/prep food' ordinal='43' />
+            <column datatype='integer' name='Lbs per capita pkg sweetsnacks' ordinal='44' />
+            <column datatype='integer' name='Gals per capita soft drinks' ordinal='45' />
+            <column datatype='integer' name='Lbs per capita meat&amp;poultry' ordinal='46' />
+            <column datatype='integer' name='Lbs per capita solid fats' ordinal='47' />
+            <column datatype='integer' name='Lbs per capita prepared meals' ordinal='48' />
+            <column datatype='integer' name='Household food insecurity 2007' ordinal='49' />
+            <column datatype='integer' name='Household food insecurity 2008' ordinal='50' />
+            <column datatype='integer' name='Child food insecurity' ordinal='51' />
+            <column datatype='real' name='Relative price of low-fat milk' ordinal='52' />
+            <column datatype='real' name='Relative price of sweetened drinks' ordinal='53' />
+            <column datatype='real' name='Relative ratio lw-fat milk/swtnd drnk' ordinal='54' />
+            <column datatype='real' name='Price ratio green-leafy/starchy veg' ordinal='55' />
+            <column datatype='real' name='Price ratio fruit/pkg sweet snacks' ordinal='56' />
+            <column datatype='real' name='Price ratio fruit/pkg savory snacks' ordinal='57' />
+            <column datatype='real' name='Price ratio wholegrain/refinedgrain' ordinal='58' />
+            <column datatype='real' name='Soda sales tax, retail stores' ordinal='59' />
+            <column datatype='real' name='Soda sales tax, vending' ordinal='60' />
+            <column datatype='real' name='Chip &amp; pretzel sales tax, vending' ordinal='61' />
+            <column datatype='real' name='State food sales tax, general' ordinal='62' />
+            <column datatype='real' name='Adult diabetes rate' ordinal='63' />
+            <column datatype='real' name='Adult obesity rate' ordinal='64' />
+            <column datatype='real' name='% who do not exercise' ordinal='65' />
+            <column datatype='real' name='Low-income preschool obesity rate' ordinal='66' />
+            <column datatype='integer' name='# Farms with direct sales' ordinal='67' />
+            <column datatype='real' name='% Farms with direct sales' ordinal='68' />
+            <column datatype='real' name='% Farm sales $ direct to consumer' ordinal='69' />
+            <column datatype='integer' name='$ Direct farm sales' ordinal='70' />
+            <column datatype='real' name='$ Direct farm sales per capita' ordinal='71' />
+            <column datatype='integer' name='# Farmers’ markets' ordinal='72' />
+            <column datatype='real' name='Farmers’ markets/1,000 pop' ordinal='73' />
+            <column datatype='integer' name='# Vegetable acres harvested' ordinal='74' />
+            <column datatype='real' name='Vegetable acres harvested/1,000 pop' ordinal='75' />
+            <column datatype='integer' name='Farm to school program' ordinal='76' />
+            <column datatype='real' name='% Adults meeting activity guidelines' ordinal='77' />
+            <column datatype='real' name='% Highschoolers physically active' ordinal='78' />
+            <column datatype='real' name='Rec &amp; fitness facilities/1,000 pop' ordinal='79' />
+            <column datatype='integer' name='ERS natural amenity index' ordinal='80' />
+            <column datatype='real' name='% White' ordinal='81' />
+            <column datatype='real' name='% Black' ordinal='82' />
+            <column datatype='real' name='% Hispanic' ordinal='83' />
+            <column datatype='real' name='% Asian' ordinal='84' />
+            <column datatype='real' name='% Amer. Indian or Alaskan Native' ordinal='85' />
+            <column datatype='real' name='% Hawaiian or Pacific Islander' ordinal='86' />
+            <column datatype='integer' name='Median household income' ordinal='87' />
+            <column datatype='real' name='Poverty rate' ordinal='88' />
+            <column datatype='integer' name='Persistent poverty counties' ordinal='89' />
+            <column datatype='real' name='Child poverty rate' ordinal='90' />
+            <column datatype='integer' name='Persistent child poverty counties' ordinal='91' />
+            <column datatype='integer' name='Metro-nonmetro counties' ordinal='92' />
+            <column datatype='integer' name='Population loss counties' ordinal='93' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:CP3142:no:A1:CP3142:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[County]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>County</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Voting in 2008</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Voting in 2008]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Voting in 2008</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># Households w/no car &amp; &gt;1 mile to store</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# Households w/no car &amp; &gt;1 mile to store]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias># Households w/no car &amp; &gt;1 mile to store</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name><![CDATA[% Households no car & <1 mile to store]]></remote-name>
+            <remote-type>5</remote-type>
+            <local-name><![CDATA[[% Households no car & <1 mile to store]]]></local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias><![CDATA[% Households no car & <1 mile to store]]></remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># low income &amp; &gt;1 mile to store</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# low income &amp; &gt;1 mile to store]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias># low income &amp; &gt;1 mile to store</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% smokers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% smokers]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>% smokers</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># Grocery stores</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# Grocery stores]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias># Grocery stores</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grocery stores/1000 pop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Grocery stores/1000 pop]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Grocery stores/1000 pop</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># Supercenters and club stores</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# Supercenters and club stores]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias># Supercenters and club stores</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Supercenters and club stores/1000 pop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Supercenters and club stores/1000 pop]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Supercenters and club stores/1000 pop</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># Convenience stores no gas</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# Convenience stores no gas]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias># Convenience stores no gas</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Convenience stores no gas/1,000 pop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Convenience stores no gas/1,000 pop]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Convenience stores no gas/1,000 pop</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># Convenience stores with gas</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# Convenience stores with gas]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias># Convenience stores with gas</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Convenience stores with gas/1,000 pop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Convenience stores with gas/1,000 pop]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Convenience stores with gas/1,000 pop</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># SNAP-authorized stores</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# SNAP-authorized stores]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias># SNAP-authorized stores</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SNAP-authorized stores/1,000 pop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SNAP-authorized stores/1,000 pop]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>SNAP-authorized stores/1,000 pop</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SNAP redemption/SNAP-authorized stores</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SNAP redemption/SNAP-authorized stores]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>SNAP redemption/SNAP-authorized stores</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># WIC-authorized stores</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# WIC-authorized stores]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias># WIC-authorized stores</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WIC-authorized stores/1,000 pop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WIC-authorized stores/1,000 pop]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>WIC-authorized stores/1,000 pop</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WIC redemptions/WIC-authorized stores</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WIC redemptions/WIC-authorized stores]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>WIC redemptions/WIC-authorized stores</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># Fast-food restaurants</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# Fast-food restaurants]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias># Fast-food restaurants</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fast-food restaurants/1,000 pop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fast-food restaurants/1,000 pop]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Fast-food restaurants/1,000 pop</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># Full-service restaurants</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# Full-service restaurants]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias># Full-service restaurants</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Full-service restaurant/1,000 pop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Full-service restaurant/1,000 pop]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Full-service restaurant/1,000 pop</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fast-food expenditures per capita</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fast-food expenditures per capita]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Fast-food expenditures per capita</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Restaurant expenditures per capita</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Restaurant expenditures per capita]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Restaurant expenditures per capita</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg monthly # SNAP participants</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Avg monthly # SNAP participants]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Avg monthly # SNAP participants</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total SNAP benefits ($1,000)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total SNAP benefits ($1,000)]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Total SNAP benefits ($1,000)</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average monthly SNAP $ benefits</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Average monthly SNAP $ benefits]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Average monthly SNAP $ benefits</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SNAP participation rate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SNAP participation rate]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>SNAP participation rate</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Low-income receiving SNAP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Low-income receiving SNAP]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>% Low-income receiving SNAP</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg monthly # School-Lunch participants</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Avg monthly # School-Lunch participants]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Avg monthly # School-Lunch participants</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% eating few fruits and vegetables</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% eating few fruits and vegetables]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>% eating few fruits and vegetables</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Students reduce-price-lunch eligible</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Students reduce-price-lunch eligible]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>% Students reduce-price-lunch eligible</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg monthly # Schl-Breakfast participants</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Avg monthly # Schl-Breakfast participants]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Avg monthly # Schl-Breakfast participants</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg monthly # Summer-Food participants</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Avg monthly # Summer-Food participants]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Avg monthly # Summer-Food participants</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># Summer-Food program sites</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# Summer-Food program sites]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias># Summer-Food program sites</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average daily meals at Summer-Food sites</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Average daily meals at Summer-Food sites]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Average daily meals at Summer-Food sites</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg monthly # WIC participants*</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Avg monthly # WIC participants*]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Avg monthly # WIC participants*</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WIC $ redemptions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WIC $ redemptions]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>WIC $ redemptions</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg daily served Child-&amp;-Adult-Care</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg daily served Child-&amp;-Adult-Care]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Avg daily served Child-&amp;-Adult-Care</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lbs per capita fruit&amp;veg</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lbs per capita fruit&amp;veg]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Lbs per capita fruit&amp;veg</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ratio per capita fruit&amp;veg/prep food</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ratio per capita fruit&amp;veg/prep food]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Ratio per capita fruit&amp;veg/prep food</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lbs per capita pkg sweetsnacks</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lbs per capita pkg sweetsnacks]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Lbs per capita pkg sweetsnacks</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gals per capita soft drinks</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gals per capita soft drinks]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Gals per capita soft drinks</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lbs per capita meat&amp;poultry</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lbs per capita meat&amp;poultry]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Lbs per capita meat&amp;poultry</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lbs per capita solid fats</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lbs per capita solid fats]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Lbs per capita solid fats</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lbs per capita prepared meals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lbs per capita prepared meals]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Lbs per capita prepared meals</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Household food insecurity 2007</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Household food insecurity 2007]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Household food insecurity 2007</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Household food insecurity 2008</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Household food insecurity 2008]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Household food insecurity 2008</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Child food insecurity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Child food insecurity]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Child food insecurity</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Relative price of low-fat milk</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Relative price of low-fat milk]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Relative price of low-fat milk</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Relative price of sweetened drinks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Relative price of sweetened drinks]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Relative price of sweetened drinks</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Relative ratio lw-fat milk/swtnd drnk</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Relative ratio lw-fat milk/swtnd drnk]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Relative ratio lw-fat milk/swtnd drnk</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price ratio green-leafy/starchy veg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Price ratio green-leafy/starchy veg]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Price ratio green-leafy/starchy veg</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price ratio fruit/pkg sweet snacks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Price ratio fruit/pkg sweet snacks]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Price ratio fruit/pkg sweet snacks</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price ratio fruit/pkg savory snacks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Price ratio fruit/pkg savory snacks]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Price ratio fruit/pkg savory snacks</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price ratio wholegrain/refinedgrain</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Price ratio wholegrain/refinedgrain]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Price ratio wholegrain/refinedgrain</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Soda sales tax, retail stores</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Soda sales tax, retail stores]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Soda sales tax, retail stores</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Soda sales tax, vending</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Soda sales tax, vending]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Soda sales tax, vending</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Chip &amp; pretzel sales tax, vending</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Chip &amp; pretzel sales tax, vending]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Chip &amp; pretzel sales tax, vending</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State food sales tax, general</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[State food sales tax, general]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>State food sales tax, general</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Adult diabetes rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Adult diabetes rate]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Adult diabetes rate</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Adult obesity rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Adult obesity rate]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Adult obesity rate</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% who do not exercise</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% who do not exercise]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>% who do not exercise</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Low-income preschool obesity rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Low-income preschool obesity rate]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Low-income preschool obesity rate</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># Farms with direct sales</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# Farms with direct sales]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias># Farms with direct sales</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Farms with direct sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Farms with direct sales]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>% Farms with direct sales</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Farm sales $ direct to consumer</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Farm sales $ direct to consumer]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>% Farm sales $ direct to consumer</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$ Direct farm sales</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$ Direct farm sales]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>$ Direct farm sales</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$ Direct farm sales per capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[$ Direct farm sales per capita]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>$ Direct farm sales per capita</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># Farmers’ markets</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# Farmers’ markets]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias># Farmers’ markets</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Farmers’ markets/1,000 pop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Farmers’ markets/1,000 pop]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Farmers’ markets/1,000 pop</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name># Vegetable acres harvested</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[# Vegetable acres harvested]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias># Vegetable acres harvested</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vegetable acres harvested/1,000 pop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Vegetable acres harvested/1,000 pop]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Vegetable acres harvested/1,000 pop</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Farm to school program</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Farm to school program]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Farm to school program</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Adults meeting activity guidelines</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Adults meeting activity guidelines]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>% Adults meeting activity guidelines</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Highschoolers physically active</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Highschoolers physically active]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>% Highschoolers physically active</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rec &amp; fitness facilities/1,000 pop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rec &amp; fitness facilities/1,000 pop]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Rec &amp; fitness facilities/1,000 pop</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ERS natural amenity index</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ERS natural amenity index]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>ERS natural amenity index</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% White</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% White]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>% White</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Black</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Black]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>% Black</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Hispanic</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Hispanic]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>% Hispanic</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Asian</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Asian]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>% Asian</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Amer. Indian or Alaskan Native</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Amer. Indian or Alaskan Native]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>% Amer. Indian or Alaskan Native</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% Hawaiian or Pacific Islander</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% Hawaiian or Pacific Islander]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>% Hawaiian or Pacific Islander</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median household income</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median household income]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Median household income</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Poverty rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Poverty rate]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Poverty rate</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persistent poverty counties</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Persistent poverty counties]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Persistent poverty counties</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Child poverty rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Child poverty rate]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Child poverty rate</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persistent child poverty counties</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Persistent child poverty counties]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Persistent child poverty counties</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Metro-nonmetro counties</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Metro-nonmetro counties]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Metro-nonmetro counties</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population loss counties</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population loss counties]</local-name>
+            <parent-name>[Connect to me]</parent-name>
+            <remote-alias>Population loss counties</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='# Low Income &amp; &gt;1 Mile To Store' datatype='integer' name='[# low income &amp; &gt;1 mile to store]' role='measure' type='quantitative' />
+      <column caption='% Eating Few Fruits And Vegetables' datatype='real' name='[% eating few fruits and vegetables]' role='measure' type='quantitative' />
+      <column caption='% Smokers' datatype='real' name='[% smokers]' role='measure' type='quantitative' />
+      <column caption='% Who Do Not Exercise' datatype='real' name='[% who do not exercise]' role='measure' type='quantitative' />
+      <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Connect to me' datatype='table' name='[__tableau_internal_object_id__].[Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD]' role='measure' type='quantitative' />
+      <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+      <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[Exclusions (County,State)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:County:nk]' />
+          <groupfilter function='level-members' level='[none:State:nk]' />
+        </groupfilter>
+      </group>
+      <drill-paths>
+        <drill-path name='State, County'>
+          <field>[State]</field>
+          <field>[County]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+        <semantic-value key='[County].[Name]' value='%null%' />
+        <semantic-value key='[State].[Name]' value='%null%' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Connect to me' id='Connect to me_A27041BAD1CC4CFC8392FBF18F7A5ECD'>
+            <properties context=''>
+              <relation connection='excel-direct.1q57a940o8cfiz10gjv5x1ifkhgj' name='Connect to me' table='[&apos;Connect to me$&apos;]' type='table'>
+                <columns gridOrigin='A1:CP3142:no:A1:CP3142:0' header='yes' outcome='2'>
+                  <column datatype='string' name='State' ordinal='0' />
+                  <column datatype='string' name='County' ordinal='1' />
+                  <column datatype='string' name='Voting in 2008' ordinal='2' />
+                  <column datatype='integer' name='# Households w/no car &amp; &gt;1 mile to store' ordinal='3' />
+                  <column datatype='real' name='% Households no car &amp; &lt;1 mile to store' ordinal='4' />
+                  <column datatype='integer' name='# low income &amp; &gt;1 mile to store' ordinal='5' />
+                  <column datatype='real' name='% smokers' ordinal='6' />
+                  <column datatype='integer' name='# Grocery stores' ordinal='7' />
+                  <column datatype='real' name='Grocery stores/1000 pop' ordinal='8' />
+                  <column datatype='integer' name='# Supercenters and club stores' ordinal='9' />
+                  <column datatype='real' name='Supercenters and club stores/1000 pop' ordinal='10' />
+                  <column datatype='integer' name='# Convenience stores no gas' ordinal='11' />
+                  <column datatype='real' name='Convenience stores no gas/1,000 pop' ordinal='12' />
+                  <column datatype='integer' name='# Convenience stores with gas' ordinal='13' />
+                  <column datatype='real' name='Convenience stores with gas/1,000 pop' ordinal='14' />
+                  <column datatype='integer' name='# SNAP-authorized stores' ordinal='15' />
+                  <column datatype='real' name='SNAP-authorized stores/1,000 pop' ordinal='16' />
+                  <column datatype='integer' name='SNAP redemption/SNAP-authorized stores' ordinal='17' />
+                  <column datatype='integer' name='# WIC-authorized stores' ordinal='18' />
+                  <column datatype='real' name='WIC-authorized stores/1,000 pop' ordinal='19' />
+                  <column datatype='integer' name='WIC redemptions/WIC-authorized stores' ordinal='20' />
+                  <column datatype='integer' name='# Fast-food restaurants' ordinal='21' />
+                  <column datatype='real' name='Fast-food restaurants/1,000 pop' ordinal='22' />
+                  <column datatype='integer' name='# Full-service restaurants' ordinal='23' />
+                  <column datatype='real' name='Full-service restaurant/1,000 pop' ordinal='24' />
+                  <column datatype='integer' name='Fast-food expenditures per capita' ordinal='25' />
+                  <column datatype='integer' name='Restaurant expenditures per capita' ordinal='26' />
+                  <column datatype='integer' name='Avg monthly # SNAP participants' ordinal='27' />
+                  <column datatype='integer' name='Total SNAP benefits ($1,000)' ordinal='28' />
+                  <column datatype='integer' name='Average monthly SNAP $ benefits' ordinal='29' />
+                  <column datatype='integer' name='SNAP participation rate' ordinal='30' />
+                  <column datatype='real' name='% Low-income receiving SNAP' ordinal='31' />
+                  <column datatype='integer' name='Avg monthly # School-Lunch participants' ordinal='32' />
+                  <column datatype='real' name='% eating few fruits and vegetables' ordinal='33' />
+                  <column datatype='real' name='% Students reduce-price-lunch eligible' ordinal='34' />
+                  <column datatype='integer' name='Avg monthly # Schl-Breakfast participants' ordinal='35' />
+                  <column datatype='integer' name='Avg monthly # Summer-Food participants' ordinal='36' />
+                  <column datatype='integer' name='# Summer-Food program sites' ordinal='37' />
+                  <column datatype='integer' name='Average daily meals at Summer-Food sites' ordinal='38' />
+                  <column datatype='integer' name='Avg monthly # WIC participants*' ordinal='39' />
+                  <column datatype='integer' name='WIC $ redemptions' ordinal='40' />
+                  <column datatype='real' name='Avg daily served Child-&amp;-Adult-Care' ordinal='41' />
+                  <column datatype='integer' name='Lbs per capita fruit&amp;veg' ordinal='42' />
+                  <column datatype='real' name='Ratio per capita fruit&amp;veg/prep food' ordinal='43' />
+                  <column datatype='integer' name='Lbs per capita pkg sweetsnacks' ordinal='44' />
+                  <column datatype='integer' name='Gals per capita soft drinks' ordinal='45' />
+                  <column datatype='integer' name='Lbs per capita meat&amp;poultry' ordinal='46' />
+                  <column datatype='integer' name='Lbs per capita solid fats' ordinal='47' />
+                  <column datatype='integer' name='Lbs per capita prepared meals' ordinal='48' />
+                  <column datatype='integer' name='Household food insecurity 2007' ordinal='49' />
+                  <column datatype='integer' name='Household food insecurity 2008' ordinal='50' />
+                  <column datatype='integer' name='Child food insecurity' ordinal='51' />
+                  <column datatype='real' name='Relative price of low-fat milk' ordinal='52' />
+                  <column datatype='real' name='Relative price of sweetened drinks' ordinal='53' />
+                  <column datatype='real' name='Relative ratio lw-fat milk/swtnd drnk' ordinal='54' />
+                  <column datatype='real' name='Price ratio green-leafy/starchy veg' ordinal='55' />
+                  <column datatype='real' name='Price ratio fruit/pkg sweet snacks' ordinal='56' />
+                  <column datatype='real' name='Price ratio fruit/pkg savory snacks' ordinal='57' />
+                  <column datatype='real' name='Price ratio wholegrain/refinedgrain' ordinal='58' />
+                  <column datatype='real' name='Soda sales tax, retail stores' ordinal='59' />
+                  <column datatype='real' name='Soda sales tax, vending' ordinal='60' />
+                  <column datatype='real' name='Chip &amp; pretzel sales tax, vending' ordinal='61' />
+                  <column datatype='real' name='State food sales tax, general' ordinal='62' />
+                  <column datatype='real' name='Adult diabetes rate' ordinal='63' />
+                  <column datatype='real' name='Adult obesity rate' ordinal='64' />
+                  <column datatype='real' name='% who do not exercise' ordinal='65' />
+                  <column datatype='real' name='Low-income preschool obesity rate' ordinal='66' />
+                  <column datatype='integer' name='# Farms with direct sales' ordinal='67' />
+                  <column datatype='real' name='% Farms with direct sales' ordinal='68' />
+                  <column datatype='real' name='% Farm sales $ direct to consumer' ordinal='69' />
+                  <column datatype='integer' name='$ Direct farm sales' ordinal='70' />
+                  <column datatype='real' name='$ Direct farm sales per capita' ordinal='71' />
+                  <column datatype='integer' name='# Farmers’ markets' ordinal='72' />
+                  <column datatype='real' name='Farmers’ markets/1,000 pop' ordinal='73' />
+                  <column datatype='integer' name='# Vegetable acres harvested' ordinal='74' />
+                  <column datatype='real' name='Vegetable acres harvested/1,000 pop' ordinal='75' />
+                  <column datatype='integer' name='Farm to school program' ordinal='76' />
+                  <column datatype='real' name='% Adults meeting activity guidelines' ordinal='77' />
+                  <column datatype='real' name='% Highschoolers physically active' ordinal='78' />
+                  <column datatype='real' name='Rec &amp; fitness facilities/1,000 pop' ordinal='79' />
+                  <column datatype='integer' name='ERS natural amenity index' ordinal='80' />
+                  <column datatype='real' name='% White' ordinal='81' />
+                  <column datatype='real' name='% Black' ordinal='82' />
+                  <column datatype='real' name='% Hispanic' ordinal='83' />
+                  <column datatype='real' name='% Asian' ordinal='84' />
+                  <column datatype='real' name='% Amer. Indian or Alaskan Native' ordinal='85' />
+                  <column datatype='real' name='% Hawaiian or Pacific Islander' ordinal='86' />
+                  <column datatype='integer' name='Median household income' ordinal='87' />
+                  <column datatype='real' name='Poverty rate' ordinal='88' />
+                  <column datatype='integer' name='Persistent poverty counties' ordinal='89' />
+                  <column datatype='real' name='Child poverty rate' ordinal='90' />
+                  <column datatype='integer' name='Persistent child poverty counties' ordinal='91' />
+                  <column datatype='integer' name='Metro-nonmetro counties' ordinal='92' />
+                  <column datatype='integer' name='Population loss counties' ordinal='93' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <shared-views>
+    <shared-view name='federated.1q461cg1uebgwl12xxu6b12ticza'>
+      <datasources>
+        <datasource caption='Connect to me (USDA_activity_dataset)' name='federated.1q461cg1uebgwl12xxu6b12ticza' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1q461cg1uebgwl12xxu6b12ticza'>
+        <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+        <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.1q461cg1uebgwl12xxu6b12ticza].[Exclusions (County,State)]'>
+        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+          <groupfilter function='crossjoin'>
+            <groupfilter function='level-members' level='[none:County:nk]' />
+            <groupfilter function='level-members' level='[none:State:nk]' />
+          </groupfilter>
+          <groupfilter function='reorder-dimensionality'>
+            <groupfilter function='union'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:State:nk]' member='&quot;Alaska&quot;' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Aleutians East&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Aleutians West&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Anchorage&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Bethel&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Bristol Bay&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Denali&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Dillingham&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Fairbanks North Star&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Haines&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Juneau&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Kenai Peninsula&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Ketchikan Gateway&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Kodiak Island&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Lake and Peninsula&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Matanuska-Susitna&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Nome&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;North Slope&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Northwest Arctic&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Sitka&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Southeast Fairbanks&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Valdez-Cordova&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Wade Hampton&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Yakutat&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Yukon-Koyukuk&quot;' />
+                </groupfilter>
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:State:nk]' member='&quot;Hawaii&quot;' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Hawaii&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Honolulu&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Kalawao&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Kauai&quot;' />
+                  <groupfilter function='member' level='[none:County:nk]' member='&quot;Maui&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+            <order>
+              <hierarchy name='[none:County:nk]' />
+              <hierarchy name='[none:State:nk]' />
+            </order>
+          </groupfilter>
+        </groupfilter>
+      </filter>
+      <filter class='categorical' column='[federated.1q461cg1uebgwl12xxu6b12ticza].[none:State:nk]'>
+        <groupfilter function='member' level='[none:State:nk]' member='&quot;Alabama&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+        <target field='[federated.1q461cg1uebgwl12xxu6b12ticza].[none:State:nk]' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='Map View'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Connect to me (USDA_activity_dataset)' name='federated.1q461cg1uebgwl12xxu6b12ticza' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1q461cg1uebgwl12xxu6b12ticza'>
+            <column datatype='real' name='[Adult obesity rate]' role='measure' type='quantitative' />
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Adult obesity rate]' derivation='Sum' name='[sum:Adult obesity rate:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1q461cg1uebgwl12xxu6b12ticza].[Exclusions (County,State)]</column>
+            <column>[federated.1q461cg1uebgwl12xxu6b12ticza].[none:State:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1q461cg1uebgwl12xxu6b12ticza].[sum:Adult obesity rate:qk]' palette='red_green_white_diverging_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1q461cg1uebgwl12xxu6b12ticza].[sum:Adult obesity rate:qk]' />
+              <size column='[federated.1q461cg1uebgwl12xxu6b12ticza].[sum:Adult obesity rate:qk]' />
+              <lod column='[federated.1q461cg1uebgwl12xxu6b12ticza].[none:State:nk]' />
+              <lod column='[federated.1q461cg1uebgwl12xxu6b12ticza].[none:County:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1q461cg1uebgwl12xxu6b12ticza].[Latitude (generated)]</rows>
+        <cols>[federated.1q461cg1uebgwl12xxu6b12ticza].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{6E0329C6-9092-45C5-8373-F64067B89AA2}' />
+    </worksheet>
+    <worksheet name='Scatterplot View'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Connect to me (USDA_activity_dataset)' name='federated.1q461cg1uebgwl12xxu6b12ticza' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1q461cg1uebgwl12xxu6b12ticza'>
+            <column caption='% Eating Few Fruits And Vegetables' datatype='real' name='[% eating few fruits and vegetables]' role='measure' type='quantitative' />
+            <column caption='% Smokers' datatype='real' name='[% smokers]' role='measure' type='quantitative' />
+            <column caption='% Who Do Not Exercise' datatype='real' name='[% who do not exercise]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Adult obesity rate]' role='measure' type='quantitative' />
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[% eating few fruits and vegetables]' derivation='Sum' name='[sum:% eating few fruits and vegetables:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[% smokers]' derivation='Sum' name='[sum:% smokers:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[% who do not exercise]' derivation='Sum' name='[sum:% who do not exercise:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Adult obesity rate]' derivation='Sum' name='[sum:Adult obesity rate:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1q461cg1uebgwl12xxu6b12ticza].[Exclusions (County,State)]</column>
+            <column>[federated.1q461cg1uebgwl12xxu6b12ticza].[none:State:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1q461cg1uebgwl12xxu6b12ticza].[none:State:nk]' />
+              <lod column='[federated.1q461cg1uebgwl12xxu6b12ticza].[none:County:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#606b76' />
+                <format attr='mark-transparency' value='208' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1q461cg1uebgwl12xxu6b12ticza].[sum:% smokers:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1q461cg1uebgwl12xxu6b12ticza].[none:State:nk]' />
+              <lod column='[federated.1q461cg1uebgwl12xxu6b12ticza].[none:County:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#606b76' />
+                <format attr='mark-transparency' value='208' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1q461cg1uebgwl12xxu6b12ticza].[sum:% eating few fruits and vegetables:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1q461cg1uebgwl12xxu6b12ticza].[none:State:nk]' />
+              <lod column='[federated.1q461cg1uebgwl12xxu6b12ticza].[none:County:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#606b76' />
+                <format attr='mark-transparency' value='208' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1q461cg1uebgwl12xxu6b12ticza].[sum:% who do not exercise:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1q461cg1uebgwl12xxu6b12ticza].[none:State:nk]' />
+              <lod column='[federated.1q461cg1uebgwl12xxu6b12ticza].[none:County:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#606b76' />
+                <format attr='mark-transparency' value='208' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1q461cg1uebgwl12xxu6b12ticza].[sum:Adult obesity rate:qk]</rows>
+        <cols>([federated.1q461cg1uebgwl12xxu6b12ticza].[sum:% smokers:qk] + ([federated.1q461cg1uebgwl12xxu6b12ticza].[sum:% eating few fruits and vegetables:qk] + [federated.1q461cg1uebgwl12xxu6b12ticza].[sum:% who do not exercise:qk]))</cols>
+      </table>
+      <simple-id uuid='{BE6E56A4-2100-427A-A3E6-29851CDFB6EB}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Obesity by state and county'>
+      <style />
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='Connect to me (USDA_activity_dataset)' name='federated.1q461cg1uebgwl12xxu6b12ticza' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1q461cg1uebgwl12xxu6b12ticza'>
+        <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+        <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97916' id='13' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+            <zone h='6511' id='14' type-v2='title' w='98828' x='586' y='1042'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='91405' id='7' param='horz' type-v2='layout-flow' w='98828' x='586' y='7553'>
+              <zone h='91405' id='5' type-v2='layout-basic' w='87115' x='586' y='7553'>
+                <zone h='91405' id='3' name='Map View' w='43551' x='586' y='7553'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='91405' id='10' name='Scatterplot View' w='43564' x='44137' y='7553'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='91405' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='11713' x='87701' y='7553'>
+                <zone h='9506' id='8' name='Map View' pane-specification-id='0' param='[federated.1q461cg1uebgwl12xxu6b12ticza].[sum:Adult obesity rate:qk]' type-v2='color' w='11713' x='87701' y='7553'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='11065' id='9' name='Map View' pane-specification-id='0' param='[federated.1q461cg1uebgwl12xxu6b12ticza].[sum:Adult obesity rate:qk]' type-v2='size' w='11713' x='87701' y='17059'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='536' h='70834' id='11' is-fixed='true' mode='dropdown' name='Map View' param='[federated.1q461cg1uebgwl12xxu6b12ticza].[none:State:nk]' type-v2='filter' values='cascading' w='11713' x='87701' y='28124'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='850' minheight='850' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='22' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='21' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+                <zone h='6511' id='14' type-v2='title' w='98828' x='586' y='1042'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='536' h='70834' id='11' mode='dropdown' name='Map View' param='[federated.1q461cg1uebgwl12xxu6b12ticza].[none:State:nk]' type-v2='filter' values='cascading' w='11713' x='87701' y='28124'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='91405' id='3' is-fixed='true' name='Map View' w='43551' x='586' y='7553'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9506' id='8' name='Map View' pane-specification-id='0' param='[federated.1q461cg1uebgwl12xxu6b12ticza].[sum:Adult obesity rate:qk]' type-v2='color' w='11713' x='87701' y='7553'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='11065' id='9' name='Map View' pane-specification-id='0' param='[federated.1q461cg1uebgwl12xxu6b12ticza].[sum:Adult obesity rate:qk]' type-v2='size' w='11713' x='87701' y='17059'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='91405' id='10' is-fixed='true' name='Scatterplot View' w='43564' x='44137' y='7553'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{9FA27C1C-D4F0-4C06-B91A-44D61F1B61D8}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='dashboard' maximized='true' name='Obesity by state and county'>
+      <viewpoints>
+        <viewpoint name='Map View'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Scatterplot View'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{CB636BEE-B8A8-4768-A07E-1BE8DE51105E}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Map View'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1q461cg1uebgwl12xxu6b12ticza].[sum:Adult obesity rate:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1q461cg1uebgwl12xxu6b12ticza].[sum:Adult obesity rate:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1q461cg1uebgwl12xxu6b12ticza].[none:State:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8747A3B1-6567-4D4B-AADD-78448FD19DB9}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Scatterplot View'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1q461cg1uebgwl12xxu6b12ticza].[none:County:nk]</field>
+            <field>[federated.1q461cg1uebgwl12xxu6b12ticza].[none:State:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F7C9D138-CBE1-4E54-ACC9-08C7BD90F388}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Obesity by state and county' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
